@@ -1,0 +1,55 @@
+*::before
+*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: blue;
+}
+.container{
+    background-color: aqua;
+    width: 40%;
+    min-width: 500px;
+    position: absolute;
+    transform: translate(-50% ,-50%);
+    top: 50%;
+    left: 50%;
+    padding: 20px 0;
+    padding-bottom: 50px;
+    border-radius: 10px;
+}
+.display{
+    position: relative;
+    width: 92%;
+    background: gray;
+    left: 4%;
+    padding: 40px 0;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5px;
+    box-shadow: 0 0 20px greenyellow(0,139,253,0.25);
+}
+.botao{
+    width: 120px;
+    height: 45px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    
+}
+.botao button:nth-last-child(2){
+    background-color: red;
+}
+.botao button:nth-last-child(1){
+    background-color: blue;
+}
